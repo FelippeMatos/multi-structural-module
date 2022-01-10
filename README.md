@@ -1,2 +1,2 @@
-# multi-structural-module
-Multi structural modules for iOS/Android
+# multi-module-architecture
+Multi sctructual module android/ios
