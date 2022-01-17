@@ -13,6 +13,7 @@
 		23D4B339278DCA7C007729DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4B337278DCA7C007729DC /* Main.storyboard */; };
 		23D4B33B278DCA7D007729DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4B33A278DCA7D007729DC /* Assets.xcassets */; };
 		23D4B33E278DCA7D007729DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4B33C278DCA7D007729DC /* LaunchScreen.storyboard */; };
+		23DFBE882795AB3200F1F769 /* Core.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 23DFBE872795AB3200F1F769 /* Core.podspec */; };
 		23E65A8C278F1538003CBDE5 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C82C25273BFEF400E84149 /* Core.framework */; };
 		23E65A8D278F1538003CBDE5 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59C82C25273BFEF400E84149 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		597F1C3F27564229006320C9 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597F1C3E27564229006320C9 /* AppNavigation.swift */; };
@@ -58,6 +59,7 @@
 		23D4B33A278DCA7D007729DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D4B33D278DCA7D007729DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23D4B33F278DCA7D007729DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DFBE872795AB3200F1F769 /* Core.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = Core.podspec; sourceTree = SOURCE_ROOT; };
 		597F1C3E27564229006320C9 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
 		59C82C25273BFEF400E84149 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C82C28273BFEF400E84149 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		59C82C27273BFEF400E84149 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				23DFBE872795AB3200F1F769 /* Core.podspec */,
 				59C82C33273BFF2A00E84149 /* Base */,
 				59C82C34273BFF3000E84149 /* Extensions */,
 				59C82C32273BFF2200E84149 /* Helpers */,
@@ -280,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DFBE882795AB3200F1F769 /* Core.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
