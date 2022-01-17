@@ -1,0 +1,16 @@
+PODS:
+  - CorePoc (1.0.1)
+
+DEPENDENCIES:
+  - CorePoc (from `../`)
+
+EXTERNAL SOURCES:
+  CorePoc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CorePoc: d315969efaa13adc70d7eb34fc915f181e68a160
+
+PODFILE CHECKSUM: 411daefa28d669045689db0d34ac2c6a0464d903
+
+COCOAPODS: 1.10.1

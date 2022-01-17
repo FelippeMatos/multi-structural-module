@@ -1,0 +1,6 @@
+framework module CorePoc {
+  umbrella header "CorePoc-umbrella.h"
+
+  export *
+  module * { export * }
+}

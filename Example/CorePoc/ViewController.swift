@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CorePoc
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController<Any> {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .blue
         // Do any additional setup after loading the view, typically from a nib.
     }
 
