@@ -9,7 +9,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
 //        .library(name: "pocjournys", targets: ["pocjournys"]),
-        
+        .library(name: "Core", targets: ["Core"]),
         .library(name: "Core", targets: ["Core"]),
         .library(name: "Analytics", targets: ["Analytics"]),
         .library(name: "AnalyticsInterfaces", targets: ["AnalyticsInterfaces"]),
@@ -58,9 +58,10 @@ let package = Package(
         .testTarget(name: "AppSecurityTests", dependencies: ["AppSecurity"],
                 path: "AppSecurity/Tests"),
         
-        .target(name: "AppSecurityInterfaces", dependencies: [],
-                path: "AppSecurityInterfaces/Sources"),
-        .testTarget(name: "AppSecurityInterfacesTests", dependencies: ["AppSecurityInterfaces"],
-                path: "AppSecurityInterfaces/Tests"),
+        .binaryTarget(name: "AppSecurityInterfaces", path: "AppSecurityInterfaces/AppSecurityInterfaces.xcframework")
+//        .target(name: "AppSecurityInterfaces", dependencies: [],
+//                path: "AppSecurityInterfaces/Sources"),
+//        .testTarget(name: "AppSecurityInterfacesTests", dependencies: ["AppSecurityInterfaces"],
+//                path: "AppSecurityInterfaces/Tests"),
     ]
 )
