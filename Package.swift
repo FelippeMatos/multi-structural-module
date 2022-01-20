@@ -58,10 +58,10 @@ let package = Package(
         .testTarget(name: "AppSecurityTests", dependencies: ["AppSecurity"],
                 path: "AppSecurity/Tests"),
         
-        .binaryTarget(name: "AppSecurityInterfaces", path: "AppSecurityInterfaces/AppSecurityInterfaces.xcframework")
-//        .target(name: "AppSecurityInterfaces", dependencies: [],
-//                path: "AppSecurityInterfaces/Sources"),
-//        .testTarget(name: "AppSecurityInterfacesTests", dependencies: ["AppSecurityInterfaces"],
-//                path: "AppSecurityInterfaces/Tests"),
+//        .binaryTarget(name: "AppSecurityInterfaces", path: "AppSecurityInterfaces/AppSecurityInterfaces.xcframework")
+        .target(name: "AppSecurityInterfaces", dependencies: [],
+                path: "AppSecurityInterfaces/Sources"),
+        .testTarget(name: "AppSecurityInterfacesTests", dependencies: ["AppSecurityInterfaces"],
+                path: "AppSecurityInterfaces/Tests"),
     ]
 )
